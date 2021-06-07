@@ -22,6 +22,18 @@ body {
   color: #28273c;
 }
 
+body::-webkit-scrollbar {
+  width: 0.7rem !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #f7c018;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #28273c;
+}
+
 ul, ol {
   list-style-type: none;
 }
@@ -46,6 +58,7 @@ a:hover {
 .bg-image {
   background-image: url("../Imgs/taxi_forheader.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   position: relative;
   margin-top: 76px !important;
   height: 100vh;
@@ -56,7 +69,6 @@ a:hover {
   padding-top: 20px;
   margin-top: 100px;
   padding-bottom: 20px;
-  background-color: #0d6efd;
   -webkit-animation: h1-anime 4s ease-in-out infinite;
           animation: h1-anime 4s ease-in-out infinite;
 }
@@ -105,8 +117,6 @@ a:hover {
   background-position: top;
   -webkit-transition: background-position 1s;
   transition: background-position 1s;
-  -webkit-box-shadow: 0 3px 10px 3px #f7c018;
-          box-shadow: 0 3px 10px 3px #f7c018;
 }
 
 .about-us:hover {
@@ -260,7 +270,6 @@ footer a:hover {
 
 .footer-section .copyright-option {
   background-color: #28273c !important;
-  height: 10vh;
   color: #f7c018;
 }
 
